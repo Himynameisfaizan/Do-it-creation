@@ -12,17 +12,17 @@
 
     <header class='flex justify-between items-center py-8 px-15 reletive z-1'>
         <div class=''>
-            <img class='w-70 object-cover' src="storage/image/logo/logo.png" alt="" />
+            <a href="{{ url('/') }}"><img class='w-70 object-cover' src="storage/image/logo/logo.png" alt="" /></a>
         </div>
         <div class=' backdrop-blur-xs bg-[#ffffff2d] rounded-3xl border-2 border-[#2e2b2845] hidden xl:block'>
             <div class="flex items-center gap-6 py-1 px-2 rounded-3xl text-black">
-                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200 pl-4'><a href="#">Home</a></li>
-                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="#">About Us</a></li>
-                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="#">Services +</a></li>
-                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="#">Portfolio</a></li>
-                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="#">Digital Product</a></li>
-                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="#">Blog</a></li>
-                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="#">Contact Us</a></li>
+                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200 pl-4'><a href="{{ url('/') }}">Home</a></li>
+                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/about-us') }}">About Us</a></li>
+                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/services') }}">Services +</a></li>
+                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/portfolio') }}">Portfolio</a></li>
+                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/digital-product') }}">Digital Product</a></li>
+                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/blog') }}">Blog</a></li>
+                <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/contact-us') }}">Contact Us</a></li>
                 <li class="list-none font-medium text-sm bg-[#e5212a] py-2 px-3 rounded-3xl text-white"><a href="#">Login / signup</a></li>
             </div>
         </div>
@@ -37,25 +37,25 @@
     <div id="topbar" class="w-70 rounded-xl bg-[#ffffffd3] scale-0 shadow-lg border border-[#e03d3d1c] origin-top-right absolute top-18 right-18  duration-300 z-1 xl:hidden block">
 
         <ul class="">
-            <a href="#">
+            <a href="{{ url('/') }}">
                 <li class="px-5 py-4 rounded-t-xl text-sm hover:bg-red-200 duration-300 cursor-pointer">Home</li>
             </a>
-            <a href="#">
+            <a href="{{ url('/about') }}">
                 <li class="px-5 py-4 text-sm  hover:bg-red-200 duration-300 cursor-pointer">About Us</li>
             </a>
-            <a href="#">
+            <a href="{{ url('/services') }}">
                 <li class="px-5 py-4 text-sm hover:bg-red-200 duration-300 cursor-pointer">Services+</li>
             </a>
-            <a href="#">
+            <a href="{{ url('/portfolio') }}">
                 <li class="px-5 py-4 text-sm hover:bg-red-200 duration-300 cursor-pointer">Portfolio</li>
             </a>
-            <a href="#">
+            <a href="{{ url('/digital-product') }}">
                 <li class="px-5 py-4 text-sm hover:bg-red-200 duration-300 cursor-pointer">Digital Product</li>
             </a>
-            <a href="#">
+            <a href="{{ url('/blog') }}">
                 <li class="px-5 py-4 text-sm hover:bg-red-200 duration-300 cursor-pointer">Blog</li>
             </a>
-            <a href="#">
+            <a href="{{ url('/contact-us') }}">
                 <li class="px-5 py-4 text-sm hover:bg-red-200 duration-300 cursor-pointer">Contact Us</li>
             </a>
             <a href="#">
