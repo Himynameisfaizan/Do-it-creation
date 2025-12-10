@@ -13,8 +13,8 @@
 
     @include('include.header')
 
-    <div class="max-w-10/12 mx-auto">
-        <div class="landing flex items-center">
+    <div class="">
+        <div class="landing flex items-center max-w-10/12 mx-auto">
             <div class="w-1/2 my-14 flex flex-col items-start">
                 <h1 class="text-6xl font-[bold] leading-18 text-[#2e2b28] inline-block">
                     Hii... <br /> Do You Need <br />

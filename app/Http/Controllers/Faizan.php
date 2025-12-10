@@ -10,26 +10,37 @@ class Faizan extends Controller
     {
         return view('home/index');
     }
+
     public function portfolio()
     {
         return view('portfolio/portfolio');
     }
+
+    public function new()
+    {
+        return view('portfolio/next_thing');
+    }
+
     public function about()
     {
         return view('about/about');
     }
+
     public function services()
     {
         return view('services/service');
     }
+
     public function digital_product()
     {
         return view('digital_product/digital');
     }
+
     public function blog()
     {
         return view('blog/blog');
     }
+
     public function contact_us()
     {
         return view('contact/contact');

@@ -9,6 +9,7 @@ Route::get('/', function () {
 
 Route::get('/', [Faizan::class, 'home']);
 Route::get('/portfolio', [Faizan::class, 'portfolio']);
+Route::get('/new', [Faizan::class, 'new']);
 Route::get('/about-us', [Faizan::class, 'about']);
 Route::get('/services', [Faizan::class, 'services']);
 Route::get('/digital-product', [Faizan::class, 'digital_product']);
