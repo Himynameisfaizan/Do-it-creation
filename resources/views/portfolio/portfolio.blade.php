@@ -177,6 +177,9 @@
             </div>
         </div>
     </div>
+
+    @include('include.footer')
+
 </body>
 
 </html>

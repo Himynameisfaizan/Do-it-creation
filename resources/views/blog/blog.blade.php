@@ -13,6 +13,9 @@
     @include('include.header')
 
     <h1>Blog page</h1>
+
+    @include('include.footer')
+
 </body>
 
 </html> 

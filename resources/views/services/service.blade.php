@@ -8,10 +8,13 @@
     @vite(['resources/css/app.css', 'resources/css/style.css' , 'resources/js/app.js'])
 
 </head>
-@include('include.header')
 
-<h1>Services page</h1>
 <body>
+    @include('include.header')
+
+    <h1>Services page</h1>
+
+    @include('include.footer')
 
 </body>
 

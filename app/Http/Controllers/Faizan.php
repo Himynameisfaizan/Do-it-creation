@@ -45,4 +45,19 @@ class Faizan extends Controller
     {
         return view('contact/contact');
     }
+
+    public function terms()
+    {
+        return view('policy/terms');
+    }
+
+    public function policy()
+    {
+        return view('policy/policy');
+    }
+
+    public function refund()
+    {
+        return view('policy/refund');
+    }
 }

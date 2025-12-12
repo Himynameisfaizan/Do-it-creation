@@ -15,3 +15,6 @@ Route::get('/services', [Faizan::class, 'services']);
 Route::get('/digital-product', [Faizan::class, 'digital_product']);
 Route::get('/blog', [Faizan::class, 'blog']);
 Route::get('/contact-us', [Faizan::class, 'contact_us']);
+Route::get('/terms-condition', [Faizan::class, 'terms']);
+Route::get('/privacy-policy', [Faizan::class, 'policy']);
+Route::get('/return-refund', [Faizan::class, 'refund']);

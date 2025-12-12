@@ -13,6 +13,9 @@
     @include('include.header')
 
     <h1>Digital product page</h1>
+
+    @include('include.footer')
+
 </body>
 
 </html>
