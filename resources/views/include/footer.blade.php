@@ -11,7 +11,7 @@
     <div class="px-6 py-15 flex justify-around bg-[#242220] mt-5">
         <div class="logo flex flex-col gap-6">
             <div class="img">
-                <img class="w-50" src="storage/image/logo/logo-footer.webp" alt="">
+               <a href="{{ url('/') }}"> <img class="w-50" src="storage/image/logo/logo-footer.webp" alt="footer-logo"></a>
             </div>
             <div class="info flex flex-col gap-5">
                 <div class="flex items-center gap-4">
@@ -37,12 +37,12 @@
         <div class="company flex flex-col gap-6">
             <h3 class="text-[#ec2024] font-[bold] text-xl">COMPANY</h3>
             <ul class="flex flex-col gap-2">
-                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="#">About Us</a></li>
-                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="#">Blog</a></li>
-                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="#">Privacy Policy</a></li>
-                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="#">Terms & Condition</a></li>
-                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="#">Contact Us</a></li>
-                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="#">Return & Refund Policy</a></li>
+                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="{{ url('about-us') }}">About Us</a></li>
+                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="{{ url('blog') }}">Blog</a></li>
+                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="{{ url('privacy-policy') }}">Privacy Policy</a></li>
+                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="{{ url('terms-condition') }}">Terms & Condition</a></li>
+                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="{{ url('contact-us') }}">Contact Us</a></li>
+                <li><a class="text-[#e9c7c7] text-[14px] font-[medium] hover:text-white cursor-pointer duration-200" href="{{ url('return-refund') }}">Return & Refund Policy</a></li>
             </ul>
         </div>
         <div class="quick-link flex flex-col gap-6">
@@ -60,8 +60,8 @@
         </div>
     </div>
 
-    <div class="p-5 bg-[#818181]">
-        <h3 class="text-center text-sm font-[medium] text-white">© 2023 Do It Creation. All Rights Reserved</h3>
+    <div class="p-4 bg-[#818181]">
+        <h3 class="text-center text-sm font-[medium] text-white">© 2025 Do It Creation. All Rights Reserved</h3>
     </div>
 </body>
 
