@@ -16,22 +16,22 @@
             <div class="info flex flex-col gap-5">
                 <div class="flex items-center gap-4">
                     <i class="text-[#ec2024] text-lg ri-phone-fill"></i>
-                    <h3 class="text-[#e9c7c7] text-[12px] hover:text-white duration-200 cursor-pointer font-[bold]">+91 95602 37516</h3>
+                    <a href="tel:+919560237516" class="text-[#e9c7c7] text-[12px] hover:text-white duration-200 cursor-pointer font-[bold]">+91 95602 37516</a>
                 </div>
                 <div class="flex items-center gap-4">
                     <i class="text-[#ec2024] text-lg ri-phone-fill"></i>
-                    <h3 class="text-[#e9c7c7] text-[12px] hover:text-white duration-200 cursor-pointer font-[bold]">+91 90159 61654</h3>
+                    <a href="tel:+919015961654" class="text-[#e9c7c7] text-[12px] hover:text-white duration-200 cursor-pointer font-[bold]">+91 90159 61654</a>
                 </div>
                 <div class="flex items-center gap-4">
                     <i class="text-[#ec2024] text-lg ri-mail-fill"></i>
-                    <h3 class="text-[#e9c7c7] text-[12px] hover:text-white duration-200 cursor-pointer font-[bold]">contact@doitcreation.com</h3>
+                    <a href="mailto:contact@doitcreation.com" class="text-[#e9c7c7] text-[12px] hover:text-white duration-200 cursor-pointer font-[bold]">contact@doitcreation.com</a>
                 </div>
             </div>
             <div class="social flex items-center justify-around">
-                <i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-facebook-fill"></i>
-                <i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-instagram-line"></i>
-                <i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-linkedin-fill"></i>
-                <i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-pinterest-line"></i>
+                <a target="_blank" href="https://www.facebook.com/doitcreation/"><i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-facebook-fill"></i></a>
+                <a target="_blank" href="https://www.instagram.com/doitcreation/"><i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-instagram-line"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/doitcreation/"><i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-linkedin-fill"></i></a>
+                <a target="_blank" href="https://in.pinterest.com/doitcreation/"><i class="text-[#e9c7c7] hover:text-white duration-300 text-base cursor-pointer ri-pinterest-line"></i></a>
             </div>
         </div>
         <div class="company flex flex-col gap-6">

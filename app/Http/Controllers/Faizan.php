@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\GalleryCategory;
 use Illuminate\Http\Request;
 
 class Faizan extends Controller
@@ -13,7 +14,8 @@ class Faizan extends Controller
 
     public function portfolio()
     {
-        return view('portfolio/portfolio');
+        $categories = GalleryCategory::all();
+        return view('portfolio/portfolio', ['categories' => $categories]);
     }
 
     public function new()
@@ -60,4 +62,9 @@ class Faizan extends Controller
     {
         return view('policy/refund');
     }
+
+    public function admin(){
+        return view('portfolio.admin');
+    }
+
 }

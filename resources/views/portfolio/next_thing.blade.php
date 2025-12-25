@@ -15,7 +15,6 @@
         <h4 class="text-center text-lg font-[medium] text-[#2e2b28]">That Define our Creativity.</h4>
         
         <div class="image-slider max-w-11/12  m-auto mt-10">
-            <h2>{{ $gallery[0]->image_path }}</h2>
 
             <div class="swiper myLinearSwiper1">
                 <div class="swiper-wrapper">

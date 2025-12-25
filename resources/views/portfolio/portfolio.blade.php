@@ -12,9 +12,13 @@
     @include('include.header')
 
     <div class="p-4 flex  items-center justify-between bg-red-100">
-        <div class="category-choosen flex">
-            <h2 class="cursor-pointer">Choose Category</h2>
-            <i class="ri-arrow-down-s-line"></i>
+        <div class="flex outline-0">
+            <select name="category_id" required class="outline-0 border-0 cursor-pointer">
+                <option value="">Select Category</option>
+                @foreach($categories as $category)
+                <option value="{{ $category->id }}">{{ $category->name }}</option>
+                @endforeach
+            </select>
         </div>
         <div class="category-counting">
             <h2>Showing 442 items</h2>
