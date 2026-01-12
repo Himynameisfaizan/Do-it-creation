@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 disableOnInteraction: false,
             },
             breakpoints: {
+                320: { slidesPerView: 2, spaceBetween: 20 },
+                375: { slidesPerView: 3, spaceBetween: 20 },
                 640: { slidesPerView: 4, spaceBetween: 20 },
                 768: { slidesPerView: 4, spaceBetween: 30 },
                 1024: { slidesPerView: 7, spaceBetween: 20 },
@@ -67,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
             autoplay: {
                 delay: 0,
                 disableOnInteraction: false,
-                reverseDirection:true,
+                reverseDirection: true,
             },
             breakpoints: {
                 640: { slidesPerView: 4, spaceBetween: 20 },

@@ -11,7 +11,7 @@
 
 <body>
 
-    <header class='flex justify-between items-center py-4 px-4 md:px-8 xl:px-16 relative z-50 w-full'>
+    <header class='flex justify-between items-center py-8 px-4 md:px-8 xl:px-16 relative z-50 w-full'>
         
         <div>
             <a href="{{ url('/') }}">
@@ -20,9 +20,9 @@
         </div>
 
         <div class='backdrop-blur-md bg-[#ffffff2d] rounded-3xl border-2 border-[#2e2b2845] hidden xl:block'>
-            <div class="flex items-center gap-6 py-2 px-4 rounded-3xl text-black">
+            <div class="flex items-center gap-6 py-1 px-1 rounded-3xl text-black">
                 <ul class="flex items-center gap-6 m-0 p-0">
-                    <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/') }}">Home</a></li>
+                    <li class='list-none pl-3 font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/') }}">Home</a></li>
                     <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/about-us') }}">About Us</a></li>
                     <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/services') }}">Services +</a></li>
                     <li class='list-none font-bold text-sm text-[#2e2b28] hover:text-[#e5212a] duration-200'><a href="{{ url('/portfolio') }}">Portfolio</a></li>
